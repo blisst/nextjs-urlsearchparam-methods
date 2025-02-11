@@ -1,6 +1,6 @@
 # Comparing different ways of updating the URL with search params in NextJS
 
-Comparing different ways of immediately updating the URL with search parameters, loading async data in the background, and displaying loading states.
+Comparing different ways of immediately updating the URL with search parameters while loading async data in the background and displaying loading states.
 
 ## Methods Compared
 - Search params as query parameters, using NextJS Form component.  [Vercel commerce method](https://github.com/vercel/next.js/issues/53543#issuecomment-2327883526)
