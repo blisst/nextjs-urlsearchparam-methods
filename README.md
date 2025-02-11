@@ -1,6 +1,6 @@
 # Comparing different ways of updating the URL with search params in NextJS
 
-Comparing different ways of (ideally) immediately updating the URL with search parameters and their accompanying different loading states.
+Comparing different ways of immediately updating the URL with search parameters, loading async data in the background, and displaying loading states.
 
 ## Methods Compared
 - Search params as query parameters, using NextJS Form component.  [Vercel commerce method](https://github.com/vercel/next.js/issues/53543#issuecomment-2327883526)
@@ -20,7 +20,9 @@ Created using the default `create-next-app` on 2025-02-07
 
 Created in response to having this issue in a personal project and [perusing this issue](https://github.com/vercel/next.js/issues/53543)
 
-Please let me know if there is something wrong, faulty, or falsely-illustrative with these examples.  
+Please let me know if there is something wrong, faulty, or falsely-illustrative with these examples.  I made this as a quick proof-of-concept.
+
+[This great article](https://buildui.com/posts/instant-search-params-with-react-server-components) leads me to believe that there could be issues with my approach, but I haven't seen them.
 
 
 
