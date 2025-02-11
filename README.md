@@ -1,3 +1,14 @@
+# Comparing different ways of updating the URL with search params in NextJS
+Using the `create-next-app` on 2025-02-07
+
+Compare different ways of (hopefully) immediately updating the URL immediately with search parameters and illustrating the different loading states.
+
+Created in response to having this issue in a personal project and [perusing this issue](https://github.com/vercel/next.js/issues/53543)
+
+Please let me know if there is something wrong or faulty with these examples.  
+
+# Default `create-next-app` README follows
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
