@@ -1,5 +1,6 @@
 export default function Loading() {
 	return (
-		<h1>LOADING SEARCH PARAMS PAGE...</h1>
+		// This never happens
+		<h1>LOADING SEARCH PARAMS SUSPENSE PAGE...</h1>
 	)
 }
