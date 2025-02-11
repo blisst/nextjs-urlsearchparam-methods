@@ -2,6 +2,15 @@
 
 Comparing different ways of (ideally) immediately updating the URL with search parameters and their accompanying different loading states.
 
+## Methods Compared
+- Search params as query parameters, using NextJS Form component.  [Vercel commerce method](https://github.com/vercel/next.js/issues/53543#issuecomment-2327883526)
+
+- Search params as query parameters, using normal HTML form component
+
+- Search params as dynamic URL params (parts of the URL path) with loading page
+
+- Search params as dynamic URL params (parts of the URL path) with Suspense
+
 ## Running
 Run `npm run dev` to test.
 
@@ -13,14 +22,7 @@ Created in response to having this issue in a personal project and [perusing thi
 
 Please let me know if there is something wrong, faulty, or falsely-illustrative with these examples.  
 
-# Methods Compared
-- Search params as query parameters, using NextJS Form component.  [Vercel commerce method](https://github.com/vercel/next.js/issues/53543#issuecomment-2327883526)
 
-- Search params as query parameters, using normal HTML form component
-
-- Search params as dynamic URL params (parts of the URL path) with loading page
-
-- Search params as dynamic URL params (parts of the URL path) with Suspense
 
 
 # Default `create-next-app` README follows
